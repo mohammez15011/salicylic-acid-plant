@@ -1,0 +1,29 @@
+{
+  "name": "salicylic-acid-plant",
+  "version": "1.0.0",
+  "description": "Interactive 3D visualization of Salicylic Acid Production Plant using Kolbe-Schmitt process",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "chemical-engineering",
+    "3d-visualization",
+    "salicylic-acid",
+    "kolbe-schmitt",
+    "react",
+    "three.js"
+  ],
+  "author": "Chemical Engineering Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/salicylic-acid-plant.git"
+  },
+  "homepage": "https://salicylic-acid-plant.netlify.app",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
